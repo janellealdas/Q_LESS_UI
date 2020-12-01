@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding-top: 3rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  color: #61dafb;
+  font-size: 3em;
+  padding-top: 1.5em;
+}
+
+.cardNumber {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  font-size: 1em;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding-top: 3rem;
+  border-radius: 0.7em;
+}
+
+.cardNumber .form-inline {
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.cardNumber .form-control {
+  width: 28rem;
+  font-size: 1.5rem;
+}
+
+.cardNumber .btn {
+  font-size: 1.5rem;
+  height: 3rem;
+}
+
+.home-header {
+  color: #282c34;
+  background-color: #61dafb;
+  font-size: 3em;
+  padding-top: 1.5em;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.home-body {
+  color: #61dafb;
+  font-size: 1.7em;
+  padding-top: 2em;
+  text-align: left;
+  padding-left: 2em;
+}
+
+.rowHeight {
+  height: 5em;
+}
+
+.home-button {
+  font-size: 1.5rem;
+}
+
+.display {
+  display: block;
+  width: 100%;
+}
+
+.spanMessage {
+  color: #61dafb;
+  font-size: 1em;
+  padding-top: 2em;
+  text-align: right;
+  padding-left: 2em;
+}
+
+.errorMessage {
+  color: #61dafb;
+  font-size: 1em;
+  padding-top: 2em;
+  text-align: right;
+  padding-left: 4em;
+}
+.swipeButton {
+  padding-left: 3em;
+}
